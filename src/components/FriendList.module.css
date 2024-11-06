@@ -1,0 +1,26 @@
+.container {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(158, 156, 156);
+    width: 75px;
+    height: 135px;
+    padding: 8px;
+}
+
+.cardName {
+    color: black;
+}
+
+.listContainer {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.isOnline {
+    color: lightgreen;
+}
+
+.isOffline {
+    color: crimson;
+}

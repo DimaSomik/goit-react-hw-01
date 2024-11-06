@@ -1,0 +1,22 @@
+.mainTable {
+    border-collapse: collapse;
+}
+
+.mainTable > th, td {
+    border: 1px solid black;
+    width: 200px;
+}
+
+.tableHead {
+    background-color: black;
+}
+
+.tableBody > tr:nth-child(even) {
+    background-color: gray;
+    color: black;
+}
+
+.tableBody > tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}

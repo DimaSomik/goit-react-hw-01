@@ -1,0 +1,75 @@
+.container {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(213, 212, 212);
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;    
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondContainer > p {
+    padding: 0;
+    margin: 0;
+}
+
+.imageCircle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.nameParagraph {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tagParagraph, .locationParagraph {
+    color: gray;
+}
+
+.statsList {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    height: 20%;
+}
+
+.statsList > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(158, 156, 156);
+    color: black;
+    border-top: 1px solid rgb(90, 90, 90);
+}
+
+.statsList > li > span:nth-child(2) {
+    font-weight: 700;
+}
+
+.statsList > li:nth-child(1) {
+    border-radius: 0px 0px 0px 7px;
+    border-right: 1px solid rgb(90, 90, 90);
+}
+
+.statsList > li:nth-child(3) {
+    border-radius: 0px 0px 7px 0px;
+    border-left: 1px solid rgb(90, 90, 90);;
+}
